@@ -52,14 +52,15 @@ nav {
 a {
   color: black;
   text-decoration: none;
-  text-decoration-color: white;
+  /* text-decoration-color: white; */
 }
 
 a:hover {
-  color: grey;
+  color: grey !important;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgb(85,85,85);
+  transition: none; 
 }
 
 .logo {

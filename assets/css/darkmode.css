@@ -1,43 +1,90 @@
 .darkmode-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  svg {
-    z-index: 2;
-    pointer-events: none;
-    margin-left: -74px;
-  }
-  
-  #day, #night {
-    width: 70px;
-    height: 35px;
-    background: white;
-    z-index: 1;
-    cursor: pointer;
-    border-radius: 100px;
-    background: #9cd6ef;
-    border: 3px solid #65c0e7;
-  }
-  
-  .dayNight {
-    margin-left: 30px;
-    position: relative; /* Establishes a positioning context for the child elements */
+  display: flex;
+  align-items: center;
 }
 
-#day, #night {
-    top: 0;
-    left: 0;
+svg {
+  z-index: 2;
+  pointer-events: none;
+  margin-left: -74px;
 }
 
-  #night {
-    pointer-events: none;
-  }
-  
-  #background {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background: #d3edf8;
-    z-index: -1;
-  }
+#day,
+#night {
+  width: 70px;
+  height: 35px;
+  background: white;
+  z-index: 1;
+  cursor: pointer;
+  border-radius: 100px;
+  background: #9cd6ef;
+  border: 3px solid #65c0e7;
+}
+
+.dayNight {
+  margin-left: 30px;
+  position: relative;
+}
+
+#day,
+#night {
+  top: 0;
+  left: 0;
+}
+
+#night {
+  pointer-events: none;
+}
+
+#background {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background: #d3edf8;
+  z-index: -1;
+}
+
+:root {
+  transition: all 1s;
+}
+
+a {
+  transition: all 1s;
+}
+
+.btn-color-2.dark:hover {
+  background-color: rgb(192, 192, 192);
+  color: black;
+  border: 0;
+}
+.btn-color-2.dark {
+  color: #e9e9e9;
+  border: solid 1px #e9e9e9 !important;
+}
+.btn-color-1.dark:hover {
+  background-color: white;
+  color: black;
+}
+
+p.dark {
+  color: rgb(204, 204, 204);
+}
+
+.details-container.dark {
+  background-color: rgb(53, 53, 53);
+}
+
+h2.dark {
+  color: white;
+}
+
+/* Default styles for images */
+img.icon.dark {
+  filter: invert(1);
+}
+
+img.icon {
+  transition: all 1s;
+
+}
+
