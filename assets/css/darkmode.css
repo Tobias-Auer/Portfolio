@@ -85,6 +85,9 @@ img.icon.dark {
 
 img.icon {
   transition: all 1s;
-
 }
 
+.menu-links.dark {
+  color: white;
+  background-color: rgb(53, 53, 53);
+}

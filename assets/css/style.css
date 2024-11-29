@@ -109,6 +109,7 @@ a:hover {
   transition: all 0.3 ease-in-out;
 }
 
+
 .menu-links a {
   display: block;
   padding: 10px;
@@ -179,6 +180,9 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+.section__pic-container img {
+  margin: 0 auto;
 }
 
 .section__text {

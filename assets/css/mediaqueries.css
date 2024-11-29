@@ -14,7 +14,7 @@
       scroll-snap-type: none;
     }
   }
-  
+
   @media screen and (max-width: 1200px) {
     #desktop-nav {
       display: none;
@@ -48,6 +48,15 @@
     .about-containers {
       margin-top: 0;
     }
+    .article-container {
+      justify-content: flex-start;
+      
+    }
+    article {
+      justify-content: flex-start;
+      margin: auto;
+    }
+     
   }
   
   @media screen and (max-width: 600px) {
