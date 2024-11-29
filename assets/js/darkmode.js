@@ -6,7 +6,7 @@ theme = localStorage.getItem("theme");
 
 if (theme == "day") {
   //
-} else if ("night") {
+} else if (theme == "night") {
     night();
 } else {
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
