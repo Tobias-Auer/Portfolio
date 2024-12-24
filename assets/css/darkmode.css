@@ -91,3 +91,7 @@ img.icon {
   color: white;
   background-color: rgb(53, 53, 53);
 }
+
+.hamburger-icon.dark span {
+background-color: white;
+}

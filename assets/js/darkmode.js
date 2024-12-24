@@ -39,7 +39,7 @@ function night(){
   $(":root").css({"color-scheme": "light dark"}); 
   $("a").css({"color": "white"}); 
 
-  $(".btn, p, h2, .icon, .details-container, .project-btn, #mobile-menu").addClass("dark");
+  $(".btn, p, h2, .icon, .details-container, .project-btn, #mobile-menu, .hamburger-icon").addClass("dark");
   
   
   setTimeout(function(){
@@ -63,7 +63,7 @@ function day(){
   $(this).css({"pointer-events": "none"});
   $(":root").css({"color-scheme": "light"}); 
   $("a").css({"color": "black"}); 
-  $(".btn, p, h2, .icon, .details-container, .project-btn, #mobile-menu").removeClass("dark");
+  $(".btn, p, h2, .icon, .details-container, .project-btn, #mobile-menu, .hamburger-icon").removeClass("dark");
   $("project-btn").addClass("btn-color-2"); 
   $("project-btn").removeClass("btn-color-1"); 
 

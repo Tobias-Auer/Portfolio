@@ -112,4 +112,12 @@
     .text-container {
       text-align: justify;
     }
+    .article-container {
+      justify-content: flex-start;
+      
+    }
+    article {
+      justify-content: flex-start;
+      margin: auto;
+    }
   }
